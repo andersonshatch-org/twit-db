@@ -6,6 +6,7 @@ if(is_readable('config.php')) {
 	header('Location: setup.php');
 	exit;
 }
+echo $_GET['alert_msg'];
 ?>
 <!DOCTYPE html>
 <html>
